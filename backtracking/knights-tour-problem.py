@@ -1,6 +1,6 @@
 
 # Move a knight on a chessboard so that it visits every square once
-
+# Note to self: apply Warnsdorf rule to optimise solution later
 def generate_board() -> list[list[bool]]: return [[False for _ in range(8)] for _ in range(8)]
 
 def find_next_moves(board: list[list[bool]], current_position: tuple[int, int]) -> list[tuple[int, int]]:
